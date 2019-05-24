@@ -1,0 +1,120 @@
+.blocs-biens .col-md-4 {
+    border: solid 1px #ccc;
+    width: 31%;
+    margin-left: 1.3%;
+    background: #fff;
+    margin-right: 1%;
+    float: left;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    min-height: 353px;
+    z-index: 2;
+}
+.blocs-accueil, .blocs-biens {
+    max-width: 1280px;
+    margin: 10px auto 30px;
+    font-size: 1.3em;
+    font-size: 16px;
+    position: relative;
+    clear: both;
+}
+.infos-biens-vignettes {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 0 0.5%;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.lien-bien, .lien-cartouche, .lien-cartouches-bas {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    left: 0;
+    transition: all 1s;
+}
+.lien-bien:hover, .lien-cartouche:hover{
+    background:rgba(255,255,255,0.69);
+}
+
+.lien-bien:hover {
+    border: solid 2px #158CBA;
+}
+.lien-cartouches-bas:hover{
+    border:solid 2px #FFBE00;
+}
+
+
+.prix-vignette {
+    display: inline-block;
+    background: #158CBA;
+    color: #fff;
+    width: auto;
+    text-align: center;
+    padding: 1% 2%;
+    vertical-align: top;
+}
+.surface-vignette {
+    display: inline-block;
+    background: #FAAF41;
+    color: #fff;
+    width: auto;
+    text-align: center;
+    padding: 1% 2%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.vignette {
+    min-width: 100%;
+    height: auto;
+    margin: 0 -15px 20px;
+    position: relative;
+    display: block;
+    padding: 0;
+    transition: all 2s;
+    max-height: 240px;
+    overflow: hidden;
+}
+.vignette img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+.vignette:hover{
+    opacity:0.5;
+}
+
+.titres {
+    font-size:2.5em;
+    text-align:center;
+    color:#158CBA;
+    font-weight:300;
+}
+.titres span{
+    display:block;
+    font-weight:300;
+}
+.btn-details {
+    font-size: 13px;
+    margin-bottom: 10px !important;
+    margin-top: -10px !important;
+    text-decoration: underline;
+}
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.infos-biens-vignettes{ position:absolute;z-index:2;top:0;left:0; padding:0 0.5%; width:100%;font-size: 1.3em;}
+.prix-vignette{display:inline-block;background:#158CBA;color:#fff;width:auto; text-align:center; padding:1% 2%;vertical-align:top;}
+.surface-vignette{display:inline-block;background:#FAAF41;color:#fff;width:auto; text-align:center; padding:1% 2%;margin:0;vertical-align:top;}
+.exclusif-vignette{display:block;background: url(../images/fnd-vignettes-exclusif.png) bottom center no-repeat; background-size:cover;color:#fff;width:auto; text-align:center; padding:5px 15px 20px;font-style:italic; position:absolute; right:0; top:0;}
