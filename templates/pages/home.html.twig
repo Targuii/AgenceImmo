@@ -12,14 +12,11 @@
         </p>
     </div>
     <div class="container">
-        <div class="col-md-12">
-            <h2 class="titres">Nos nouvelles offres<span></span></h2>
-            <div class="form-group">
-            </div>
-        </div>
-        <div class="row flex blocs-biens">
+        <div class="col">
+            <h2>Nos nouvelles offres</h2>
+        <div class="row justify-content-center">
             {% for property in properties %}
-            <div class="col-md-4">
+            <div class="col-md-4 m-2">
                 <a title="Vente {{ property.city }}" class="lien-bien" href="{{ path('property.show',{id:property.id,slug:property.slug}) }}"></a>
                 <div class="infos-biens-vignettes">
                     <p class="prix-vignette"> {{ property.formattedPrice }} &euro; *</p>
@@ -32,6 +29,7 @@
                 <div><div class="pull-left" style="font-size:12px;margin-bottom:10px !important;margin-top:-10px !important">(*) Frais d'agence inclus</div><div class="pull-right btn-details"><a id="" class="btn-details" href="">Voir le bien</a></div><div class="clearfix"></div></div>
             </div>
             {% endfor %}
+        </div>
         </div>
     </div>
 {% endblock %}

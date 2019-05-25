@@ -1,5 +1,35 @@
 {% extends 'base.html.twig' %}
 {% block title 'Nos Offres'%}
+
 {% block body %}
-    <h1>Pages des offres</h1>
+    <div class="jumbotron">
+        <div class="container">
+            {{ form_start(form) }}
+                <div class="form-row align-items-end">
+                    <div class="col">
+                        {{ form_row(form.minSurface) }}
+                    </div>
+                    <div class="col">
+                        {{ form_row(form.maxPrice) }}
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <button class="btn btn-secondary btn sm">Rechercher</button>
+                        </div>
+                    </div>
+                </div>
+            {{ form_end(form) }}
+        </div>
+    </div>
+    <div class="container mt-4">
+        <h2>Nos Offres</h2>
+        <div class="row">
+            {% for property in properties %}
+                {% include 'property/_property.html.twig' %}
+            {% endfor %}
+        </div>
+        <div class="navigation">
+            {{ knp_pagination_render(properties) }}
+        </div>
+    </div>
 {% endblock %}

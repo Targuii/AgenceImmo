@@ -250,7 +250,7 @@ class Property
         return $this->postal_code;
     }
 
-    public function setPostalCode(int $postal_code): self
+    public function setPostalCode(string $postal_code): self
     {
         $this->postal_code = $postal_code;
 
