@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+{% block title 'Gestions des offres' %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1 class="h4">Administration - Gestion des offres !</h1>
+    </div>
+    <div class="container">
+        {% for message in app.flashes('success') %}
+            <div class="alert alert-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Titre</th>
+                <th class="text-center">Pièces</th>
+                <th class="text-center">Chambres</th>
+                <th>Adresse</th>
+                <th>Ville</th>
+                <th>Prix</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for property in properties %}
+            <tr>
+                <td>{{ property.title }}</td>
+                <td class="text-center">{{ property.rooms }}</td>
+                <td class="text-center">{{ property.bedrooms }}</td>
+                <td>{{ property.adress }}</td>
+                <td>{{ property.city }}</td>
+                <td class="text-primary">{{ property.formattedPrice }} &euro;</td>
+                <td>
+                    <a href="{{ path('admin.property.edit',{id:property.id}) }}" class="btn btn-info btn-sm mr-2">Editer</a>
+                    <form method="post" action="{{ path('admin.property.delete',{id:property.id}) }}" style="display: inline-block;" onsubmit="return confirm('Etes vous sur de vouloir supprimer cette offre ?')">
+                        <input type="hidden" name="_method" value="DELETE">
+                        <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ property.id) }}">
+                        <button class="btn btn-danger btn-sm">Supprimer</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+
+        </table>
+        <div class="text-right">
+            <a href="{{ path('admin.property.new') }}" class="btn btn-warning mb-3">Nouvelle Offre</a>
+        </div>
+
+    </div>
+{% endblock %}
+
