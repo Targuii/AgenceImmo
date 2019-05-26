@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ebd69e5-bcea-4ab7-9f05-dd546080bf0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/targuii.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Listener/ImageCacheSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/ContactType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Notification/ContactNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/emails/contact.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebImmo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebImmo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Property.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Property.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/PropertyType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PropertyType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/property/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/property/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/home.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/property/_property.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/_property.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PropertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PropertyController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/property/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/show.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,81 +68,72 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Property.php">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state relative-caret-position="878">
+              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Form/ContactType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
-                <element signature="e#30#78#0#PHP" expanded="true" />
+                <element signature="e#28#51#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Listener/ImageCacheSubscriber.php">
+        <entry file="file://$PROJECT_DIR$/src/Controller/PropertyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="819">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
-                <element signature="e#32#56#0#PHP" expanded="true" />
+                <element signature="e#34#57#0#PHP" expanded="true" />
+                <element signature="e#2562#2577#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/services.yaml">
+        <entry file="file://$PROJECT_DIR$/templates/admin/property/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#1584#1605#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/property/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-                <element signature="n#src#0;n#img#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/liip_imagine.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/property/_property.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" selection-start-line="8" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="n#src#0;n#img#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/home.html.twig">
+        <entry file="file://$PROJECT_DIR$/src/Notification/ContactNotification.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
-                <element signature="n#src#0;n#img#1;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#36#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/property/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/src/Controller/Admin/PropertyController.php" />
         <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
@@ -190,7 +170,6 @@
         <option value="$PROJECT_DIR$/config/packages/knp_paginator.yml" />
         <option value="$PROJECT_DIR$/translations/KnpPaginatorBundle.fr.yml" />
         <option value="$PROJECT_DIR$/templates/admin/property/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/PropertyController.php" />
         <option value="$PROJECT_DIR$/templates/inc/header.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php" />
         <option value="$PROJECT_DIR$/src/Controller/OptionController.php" />
@@ -218,7 +197,14 @@
         <option value="$PROJECT_DIR$/src/Listener/ImageCacheSubscriber.php" />
         <option value="$PROJECT_DIR$/src/Form/PropertyType.php" />
         <option value="$PROJECT_DIR$/config/packages/liip_imagine.yaml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Entity/Contact.php" />
+        <option value="$PROJECT_DIR$/templates/emails/contact.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/PropertyController.php" />
+        <option value="$PROJECT_DIR$/src/Form/ContactType.php" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/templates/property/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Notification/ContactNotification.php" />
       </list>
     </option>
   </component>
@@ -351,28 +337,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="WebImmo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/ProjetsWeb/WebImmo" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="WebImmo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/ProjetsWeb/WebImmo" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="var" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="WebImmo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/ProjetsWeb/WebImmo" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="var" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="log" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -383,18 +347,20 @@
             <path>
               <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
@@ -429,6 +395,12 @@
             <path>
               <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Notification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -436,13 +408,6 @@
               <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="options" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
@@ -451,22 +416,27 @@
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="property" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="WebImmo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/ProjetsWeb/WebImmo" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="property" type="462c0819:PsiDirectoryNode" />
+              <item name="WebImmo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/ProjetsWeb/WebImmo" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="var" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="WebImmo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebImmo" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
+              <item name="WebImmo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/ProjetsWeb/WebImmo" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="var" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="log" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -478,19 +448,21 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/admin/options" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Form" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/admin/options" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Controller/Admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Form" />
+      <recent name="$PROJECT_DIR$/templates/admin/options" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -523,12 +495,13 @@
       <workItem from="1558736214686" duration="366000" />
       <workItem from="1558736675864" duration="3758000" />
       <workItem from="1558769981387" duration="45745000" />
-      <workItem from="1558862906916" duration="13554000" />
+      <workItem from="1558862906916" duration="13839000" />
+      <workItem from="1558885586505" duration="6961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88865000" />
+    <option name="totallyTimeSpent" value="96111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,7 +516,7 @@
     <frame x="1212" y="23" width="1331" height="1374" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2893716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29402637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -556,7 +529,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19656786" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19656786" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.30811232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -565,7 +538,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32971296" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28549263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29402637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -602,64 +575,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/UserFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="e#36#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-          <folding>
-            <element signature="e#201#206#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/PropertyFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding>
-            <element signature="e#36#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/knp_paginator.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/translations/KnpPaginatorBundle.fr.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
@@ -671,18 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/property/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="71" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="71" />
-          <folding>
-            <element signature="e#1248#1254#0#HTML" expanded="true" />
-            <element signature="e#1311#1330#0#Twig" expanded="true" />
-            <element signature="e#2071#2089#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,13 +669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190525235148.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190525235148.php" />
     <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190526094526.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -851,20 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190526125827.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/property/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190526125827.php" />
     <entry file="file://$PROJECT_DIR$/src/Controller/Admin/AdminPropertyController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -889,49 +773,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Listener/ImageCacheSubscriber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#32#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Property.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/PropertyType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
             <element signature="e#28#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/PropertyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
-          <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -963,13 +810,227 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/translations/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Listener/ImageCacheSubscriber.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#32#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Property.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/emails/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#470#476#0" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#2;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#470#476#0" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/property/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PropertyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#34#57#0#PHP" expanded="true" />
+            <element signature="e#2562#2577#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/property/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#1584#1605#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/ContactType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="e#28#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/property/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
-            <element signature="n#src#0;n#img#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Notification/ContactNotification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="e#36#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
