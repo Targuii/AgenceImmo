@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+{% block title 'Gestions des options' %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1 class="h4">Administration - Gestion des options !</h1>
+    </div>
+    <div class="container">
+        {% for message in app.flashes('success') %}
+            <div class="alert alert-success">
+                <i class="fas fa-check-square mr-2"></i>{{ message }}
+            </div>
+        {% endfor %}
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for options in options %}
+            <tr>
+                <td class="text-capitalize text-primary">{{ options.name }}</td>
+                <td>
+                    <a href="{{ path('admin.options.edit',{id:options.id}) }}" class="btn btn-info mr-2"><i class="far fa-edit"></i></a>
+                    <form method="post" action="{{ path('admin.options.delete',{id:options.id}) }}" style="display: inline-block;" onsubmit="return confirm('Etes vous sur de vouloir supprimer cette offre ?')">
+                        <input type="hidden" name="_method" value="DELETE">
+                        <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ options.id) }}">
+                        <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+
+        </table>
+        <div class="text-right">
+            <a href="{{ path('admin.options.new') }}" class="btn btn-warning mb-3">Nouvelle Option</a>
+        </div>
+
+    </div>
+{% endblock %}
+
