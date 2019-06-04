@@ -116,3 +116,13 @@
 .prix-vignette{display:inline-block;background:#158CBA;color:#fff;width:auto; text-align:center; padding:1% 2%;vertical-align:top;border-radius: 5px;}
 .surface-vignette{display:inline-block;background:#FAAF41;color:#fff;width:auto; text-align:center; padding:1% 2%;margin:0;vertical-align:top;border-radius: 5px;}
 .exclusif-vignette{display:block;background: url(../images/fnd-vignettes-exclusif.png) bottom center no-repeat; background-size:cover;color:#fff;width:auto; text-align:center; padding:5px 15px 20px;font-style:italic; position:absolute; right:0; top:0;border-radius: 5px;}
+
+.icon-del {
+    position: relative;
+}
+
+.caption-del {
+    position: absolute;
+    top: 55%;
+    left: 0%;
+}
