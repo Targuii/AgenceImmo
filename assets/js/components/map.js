@@ -14,7 +14,7 @@ export default class Map {
             iconAnchor:   [22, 38],
         })
         let center = [map.dataset.lat,map.dataset.lng]
-        map = L.map('map').setView(center, 13)
+        map = L.map('map',{scrollWheelZoom: false}).setView(center, 13,)
         let token = 'pk.eyJ1IjoidGFyZ3VpaSIsImEiOiJjandneHRhM3QxeTE3NDhtZ2VhOXdlNThoIn0.gk19FARXSS3r1X_qsEtK1A'
         L.tileLayer(`https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=${token}`, {
             maxZoom: 18,

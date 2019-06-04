@@ -7,9 +7,11 @@
             {{ form_start(form) }}
                 <div class="form-row align-items-end">
                     <div class="col">
+                        {{ form_label(form.minSurface,'Surface Min.',{'label_attr':{'id':'fSurface'}}) }} m2
                         {{ form_row(form.minSurface) }}
                     </div>
                     <div class="col">
+                        {{ form_label(form.maxPrice,'Budget Max.',{'label_attr':{'id':'fPrice'}}) }} &euro;
                         {{ form_row(form.maxPrice) }}
                     </div>
                     <div class="col">
@@ -19,6 +21,7 @@
                         {{ form_row(form.address,{'id': 'search_address'}) }}
                     </div>
                     <div class="col">
+                        {{ form_label(form.distance,'Distance',{'label_attr':{'id':'fDist'}}) }} Km
                         {{ form_row(form.distance) }}
                     </div>
                     <div class="col">

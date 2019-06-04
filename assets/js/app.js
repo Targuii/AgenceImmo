@@ -45,6 +45,7 @@ $('[data-slider]').slick({
 
 })
 
+
 $('select').select2();
 
     let $contactButton = $('#contactButton')

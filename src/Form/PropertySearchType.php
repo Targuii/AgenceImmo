@@ -4,12 +4,12 @@ namespace App\Form;
 
 use App\Entity\Options;
 use App\Entity\PropertySearch;
-use Doctrine\DBAL\Types\TextType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 use Symfony\Component\Form\Extension\Core\Type\IntegerType;
+use Symfony\Component\Form\Extension\Core\Type\RangeType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -18,37 +18,50 @@ class PropertySearchType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('minSurface',IntegerType::class,[
+            ->add('minSurface',RangeType::class,[
                 'required' => false,
                 'label' => false,
                 'attr' => [
-                    'placeholder' => 'Surface minimum'
+                    'min' => 10,
+                    'max' => 400,
+                    'step' => 10,
+                    'class' => 'custom-range',
+                    'oninput' => 'document.getElementById("fSurface").innerHTML = this.value'
                 ]
             ])
-            ->add('maxPrice',IntegerType::class,[
+            ->add('maxPrice',RangeType::class,[
                 'required' => false,
                 'label' => false,
                 'attr' => [
-                    'placeholder' => 'Budget Max'
+                    'min' => 0,
+                    'max' => 500000,
+                    'step' => 1000,
+                    //'value' => 500000,
+                    'class' => 'custom-range',
+                    'oninput' => 'document.getElementById("fPrice").innerHTML = this.value'
                 ]
             ])
             ->add('options',EntityType::class,[
                 'required' => false,
-                'label' => false,
+                //'label' => false,
                 'class' => Options::class,
                 'choice_label' => 'name',
                 'multiple' => true
             ])
-            ->add('distance',ChoiceType::class,[
+            ->add('distance',RangeType::class,[
                 'label' => false,
                 'required' => false,
-                'choices' => [
-                    '10 Km' => 10,
-                    '1000 Km' => 1000
+                'attr' => [
+                    'min' => 5,
+                    'max' => 1000,
+                    'step' => 10,
+                    //'value' => 1000,
+                    'class' => 'custom-range',
+                    'oninput' => 'document.getElementById("fDist").innerHTML = this.value'
                 ]
             ])
             ->add('address',null,[
-                'label' => false,
+                //'label' => false,
                 'required' => false
             ])
             ->add('lat',HiddenType::class)
