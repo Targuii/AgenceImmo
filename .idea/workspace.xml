@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ebd69e5-bcea-4ab7-9f05-dd546080bf0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/PropertySearchType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PropertySearchType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/property/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/index.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="5ebd69e5-bcea-4ab7-9f05-dd546080bf0d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,12 +446,12 @@
       <workItem from="1559561727254" duration="29125000" />
       <workItem from="1559633852262" duration="8887000" />
       <workItem from="1559668873638" duration="4154000" />
-      <workItem from="1559689600306" duration="540000" />
+      <workItem from="1559689600306" duration="685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150670000" />
+    <option name="totallyTimeSpent" value="150815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
